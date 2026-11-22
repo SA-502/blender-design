@@ -8,3 +8,8 @@ __pycache__/
 *.zip
 *_status.txt
 build_log.txt
+
+# Godot
+.godot/
+*.import
+
