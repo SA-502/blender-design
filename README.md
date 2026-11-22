@@ -25,7 +25,15 @@ designs/
     ├── pipeline.py
     ├── README.md
     └── renders/
+
+└── godot/                    ← مشروع Godot 4 جاهز يفتح القرية (GLB) وتمشّ فيها
+    ├── project.godot
+    ├── village.tscn
+    ├── fly_camera.gd
+    └── folk_village.glb
 ```
+
+> **مشروع Godot**: افتح `godot/project.godot` في Godot 4.4+ ثم `F5`. التحكم: زر يمين الماوس للنظر، WASD للحركة، Q/E صعود ونزول.
 
 ## التصاميم الموجودة
 
