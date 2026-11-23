@@ -42,8 +42,10 @@ designs/
 | 001 | بيت شعبي نجدي (طين + حوش + نخيل) | `001_folk_house/` | `folk_house.blend` | — |
 | 002 | برج حصن + مجلس مفتوح (يمين البيت) | `002_folk_building/` | `build.py` (إضافي) | — |
 | 003 | **قرية شعبية**: مسجد بقبة ومئذنة + سوق 12 محلاً + 5 بيوت + بوابة وبئر | `003_folk_village/` | `folk_house.blend` (ناتج pipeline) | `003_folk_village/renders/final_street.png`, `final_aerial.png`, `final_souq.png`, `final_mosque.png`, `final_over.png`, `final_house.png` |
+| 004 | بيت شعبي نجدي — النسخة 2 بعد التحسين (رمال، إطارات حجرية، تفاصيل حول البيت) | `004_folk_house_v2/` | `folk_house_v2.blend` (مضغوط ~41MB) + `folk_house_v1.blend` | `004_folk_house_v2/renders/final_before.png`, `final_after.png` |
+| 005 | أنيميشن منتج: مقص يتفكّك ويتركّب ويدور | `005_scissors_animation/` | `scissors_project.blend` | `005_scissors_animation/renders/final_cycles.mp4`, `final_eevee.mp4` |
 
-> التصميم القادم يبدأ من **004**. الترقيم إجباري وثلاث خانات دائماً (`007_...`) حتى يبقى الترتيب الأبجدي صحيحاً.
+> التصميم القادم يبدأ من **006**. الترقيم إجباري وثلاث خانات دائماً (`007_...`) حتى يبقى الترتيب الأبجدي صحيحاً.
 > 001/002/003 **مبنية كلها في مشهد واحد** يمثّل القرية النهائية؛ و002 و003 سكربتات إضافية تُنفَّذ فوق مشهد 001.
 > المشهد النهائي **مدمج** (52 أوبجكت بدل 2277) ليعمل الرندر وأداء اللعبة؛ المصدر غير المدمج محفوظ في `folk_house_source.blend`.
 
